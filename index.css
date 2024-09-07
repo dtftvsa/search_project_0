@@ -13,34 +13,58 @@ body{
     font-size: 20px;
     border-radius: 25px;
     border-width: 3px;
+    border-color: lightslategray;
   }
   #submit{
     margin-left: 110px;
     margin-right: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-color: darkgray;
     text-align: center;
     height: 30px;
     width: 120px;
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     border-width: 0px;
   }
   #submit:hover{
     border-width: 1px;
   }
   
+  h1{
+    text-align: center;
+    font-style: initial;
+    color: cornflowerblue;
+  }
   
   #interesting{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 40px;
     border-color: darkgray;
     text-align: center;
     height: 30px;
     width: 120px;
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     border-width: 0px;
   }
 
   #interesting:hover{
-    border: 2px;
+    border-width: 1px;
+  }
+
+  #image{
+    position: absolute;
+    top: 20px;
+    right: 175px ;
+    width: 100px;
+    font-size: 25px;
+    text-align:right;
+  }
+
+  #advanced{
+    position: absolute;
+    top: 20px;
+    right: 50px ;
+    width: 100px;
+    font-size: 25px;
+    text-align:right;
   }
