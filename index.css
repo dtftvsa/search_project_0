@@ -1,0 +1,46 @@
+body{
+    margin: auto;
+  }
+  
+  html{
+    min-height: 100%;
+    display: grid;
+  }
+  
+  #input{
+    width: 500px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25px;
+    border-width: 3px;
+  }
+  #submit{
+    margin-left: 110px;
+    margin-right: 0px;
+    margin-top: 10px;
+    border-color: darkgray;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    background-color: lightgray;
+    border-width: 0px;
+  }
+  #submit:hover{
+    border-width: 1px;
+  }
+  
+  
+  #interesting{
+    margin-top: 10px;
+    margin-left: 40px;
+    border-color: darkgray;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    background-color: lightgray;
+    border-width: 0px;
+  }
+
+  #interesting:hover{
+    border: 2px;
+  }
